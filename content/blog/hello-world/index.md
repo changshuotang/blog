@@ -1,7 +1,7 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: Placeholder
+date: "2016-05-01T22:12:03.284Z"
+description: "Placeholder"
 ---
 
 This is my first post on my new fake blog! How exciting!
