@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: "/blog",
   siteMetadata: {
-    title: `a quarantine blog`,
+    title: `in retrograde`,
     author: {
       name: `Eric`,
       summary: `San Francisco resident and SWE. This is a blog spawned from quarantine boredom.`,
@@ -61,7 +61,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `a quarantine blog`,
+        name: `in retrograde`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,

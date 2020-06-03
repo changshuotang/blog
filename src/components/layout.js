@@ -58,7 +58,6 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
-      <footer style={{marginTop: rhythm(2)}}></footer>
     </div>
   )
 }

@@ -58,10 +58,10 @@ const Bio = () => {
       />
       <div>
         <div>
-          A personal blog by <a href="https://changshuotang.github.io/">Eric Tang</a>.
+          Looking forwards, moving backwards.
         </div>
         <div>
-          I'm bored and quarantined.
+          A <a href="https://changshuotang.github.io/">personal</a> blog.
         </div>
       </div>
     </div>
