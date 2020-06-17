@@ -1,7 +1,7 @@
 ---
 title: Paxos Made Simple(r)
 date: "2020-06-03"
-description: "Paxos Made Simple was not very simple. Part I in my \"Shelter in place is boring, so I might as well read up on Distributed Systems\" series."
+description: "Paxos Made Simple was not very simple."
 ---
 
 Paxos is the distributed consensus algorithm that started it all. First published by Leslie Lamport in his seminal paper, *The Part-Time Parliament*, and later dissected for the masses in his publication *Paxos Made Simple*, the algorithm attempts to solve for consensus while striking a balance between maximizing availability (the protocol will not block on node failures, and will continue to run as long as a quorum can be reached) and guaranteeing strong consistency. 
@@ -97,7 +97,7 @@ Another concern with Paxos is that only the Proposer is aware when consensus is 
 
 ## Multi-Paxos
 
-One of the prevalent use cases of Paxos is to replicate a state machine. This is done by replicating a sequential log of operations, which will be applied by each node. Multi-Paxos is a refinement of Basic Paxos that optimizes for this use case.
+A prevalent use case of Paxos is to replicate a state machine. This is done by replicating a sequential log of operations, which will be applied by each node. Multi-Paxos is a refinement of Basic Paxos that optimizes for this use case.
 
 ### Leader Election
 
@@ -105,8 +105,8 @@ To make repeating Paxos more efficient, a single Proposer is to be made "leader"
 
 ### Leader Failure
 
-In the case of leader failure, Multi-Paxos gracefully degrades into the Basic Paxos protocol. We can allow the Proposer that first completes the next PREPARE phase to assume leadership. We do not have to worry about multiple nodes that believe that they are leaders, as that is supported by Paxos.
+In the case of leader failure, Multi-Paxos gracefully degrades into Basic Paxos. Leader reelection can be executed in a variety of ways: an easy solution would be for the Proposer of the next accepted value to assume the role of leader.
 
 ## In Summary
 
-Paxos allows a network of nodes to reach consensus on a single value, while guaranteeing that the value is valid and consistent. Multi-paxos allows consensus to be reached on a sequence of values, while attempting to minimize the number of RPCs needed to do so. When tackling consensus in a system that requires strong consistency and high availability (e.g. do not block if a node is down), Paxos is a worthy consideration.
+Paxos allows a network of nodes to reach consensus on a single value, while guaranteeing that the value is valid and consistent. Multi-paxos allows consensus to be reached on a sequence of values, while attempting to minimize the number of RPCs needed to do so. Paxos is an elegant solution to the difficult problem of providing strong consistency and high availability within a distributed system. 
