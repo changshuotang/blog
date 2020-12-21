@@ -58,7 +58,7 @@ const Bio = () => {
       />
       <div>
         <div>
-          Looking forwards, moving backwards.
+          Looking backwards.
         </div>
         <div>
           A <a href="https://changshuotang.github.io/">personal</a> blog.
