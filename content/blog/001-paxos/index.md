@@ -2,6 +2,7 @@
 title: Paxos Made Simple(r)
 date: "2020-06-03"
 description: "Paxos Made Simple was not very simple."
+tags: ['Technical']
 ---
 
 Paxos is the distributed consensus algorithm that started it all. First published by Leslie Lamport in his seminal paper, *The Part-Time Parliament*, and later dissected for the masses in his publication *Paxos Made Simple*, the algorithm attempts to solve for consensus while striking a balance between maximizing availability (the protocol will not block on node failures, and will continue to run as long as a quorum can be reached) and guaranteeing strong consistency. 

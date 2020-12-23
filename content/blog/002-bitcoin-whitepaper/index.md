@@ -1,7 +1,8 @@
 ---
 title: Visions of Distributed Currencies
 date: "2020-12-20"
-description: "Satoshi Nakamoto had a dream of a universal currency."
+description: "Satoshi Nakamoto dreams of a universal currency."
+tags: ['Technical']
 ---
 
 ## Introduction
