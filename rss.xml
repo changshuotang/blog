@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[in retrograde]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 23 Dec 2020 20:25:50 GMT</lastBuildDate><item><title><![CDATA[Visions of Distributed Currencies]]></title><description><![CDATA[Introduction Ethereum. Bitcoin. Ripple. Once heavily affiliated with hacker subculture and the dark web, cryptocurrency has become…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/002-bitcoin-whitepaper/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/002-bitcoin-whitepaper/</guid><pubDate>Sun, 20 Dec 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Ethereum. Bitcoin. Ripple.&lt;/p&gt;
+&lt;p&gt;Once heavily affiliated with hacker subculture and the dark web, cryptocurrency has become increasingly mainstream in the past decade. Nowadays applications such as Robinhood or Cash App allow just about anybody to buy into the crypto hype. &lt;/p&gt;
+&lt;p&gt;But what exactly is cryptocurrency? Can a purely electronic tender be secure and trusted enough for widespread adoption? Satoshi Nakamoto demonstrates his vision of an ideal electronic currency in his whitepaper &lt;em&gt;Bitcoin: A Peer to Peer Electronic Cash System&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;Electronic Coins&lt;/h2&gt;
+&lt;p&gt;Nakamoto lays the first principles of cryptocurrency by providing a definition for an electronic coin: &lt;em&gt;a chain of digital signatures&lt;/em&gt;. Distilled into simpler terms, he posits that a coin can be represented as a history of its past transactions.&lt;/p&gt;
+&lt;p&gt;Each transaction requires the coin’s current owner to sign it with their private key, the cryptographic equivalent of a &lt;a href=&quot;https://en.wikipedia.org/wiki/Seal_(East_Asia)&quot;&gt;hanko stamp&lt;/a&gt;. Anyone can then &lt;a href=&quot;https://en.wikipedia.org/wiki/Public-key_cryptography&quot;&gt;verify the transaction mathematically&lt;/a&gt; using the signature and the previous owner’s public key.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a2aa3552c153dbe67d46328aac522ce2/57dc1/transaction.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.78378378378378%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAABoUlEQVQoz1WTiY6CYAyEef8XM2KiibchHuB94YUHoHb3m6RktwkRpn+n0+lv8Pl8bL1e23w+tyRJ7PF42Ov1MvA8z22xWCi3Wq30/Xw+jbjdblXNfr9XDfng/X7b4XCwOI5tNptZlmV2v98NnAPb7dam02nVjBzBOZqMx2PbbDbCIRVhmqbWarWsXq/bZDJRdxQWRSHCMAyVQy1EBOQ0qtVq1mw2bbfbSX3AgePxKIBiOl2v1+qXHAr4heRyuajwfD5rMuzinVye/ypkLFSirNPpSJn7hELy4KghPAfOJK7OsYAiSNwr94eueELQjPz3+xUOkdcNh8PKIhGWZalCxnIf+E6S2JbLpfzFu9PpJJxmLM9tIAchFtFEhMyP9Eajoavwd6xeryecsf16EDRot9taWLfbVWO4KkKuAFcHo/1OMR6jooJrwzc4eV8WOJOwLBHSjQPIZTm8k+Agh8DKsjC3hgevvQbcc3gc+BKiKLLRaKSxUOyBYnAe95GgmKkGg4EuNxw0/0eIXyijIwUE3rBJcozPNsn5X7bf74sUO8B/AG7ajYtmCYPQAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;transaction&quot;
+        title=&quot;transaction&quot;
+        src=&quot;/static/a2aa3552c153dbe67d46328aac522ce2/fcda8/transaction.png&quot;
+        srcset=&quot;/static/a2aa3552c153dbe67d46328aac522ce2/12f09/transaction.png 148w,
+/static/a2aa3552c153dbe67d46328aac522ce2/e4a3f/transaction.png 295w,
+/static/a2aa3552c153dbe67d46328aac522ce2/fcda8/transaction.png 590w,
+/static/a2aa3552c153dbe67d46328aac522ce2/57dc1/transaction.png 718w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;But even with the powerful ability to verify transactions cryptographically, &lt;a href=&quot;https://en.wikipedia.org/wiki/Double-spending&quot;&gt;double spending&lt;/a&gt; is still a looming issue. There needs to be a guarantee that subsequent attempts to spend a spent coin will always be rejected.&lt;/p&gt;
+&lt;p&gt;To solve for double spending, Satoshi suggests that the system requires transactions to be publicly announced. All nodes will be aware of all transactions. But given the fact that network faults are unavoidable, the initially straightforward solution becomes a magnitude more complex, with nodes needing to eventually align with one another on a single transaction history: a problem of consensus. &lt;/p&gt;
+&lt;p&gt;Consensus amongst collaborative nodes is hard enough; consensus amongst selfishly-motivated nodes, all while keeping the network’s shared transaction history safe from attacks, seems like a fool’s task. &lt;/p&gt;
+&lt;p&gt;For this complex issue, Nakamoto provides an elegant solution, an innovation that will surely be remembered as one of the critical distributed system breakthroughs of the 21st century: the blockchain.&lt;/p&gt;
+&lt;h2&gt;The Blockchain&lt;/h2&gt;
+&lt;p&gt;The blockchain, in the context of Bitcoin, is a public, distributed ledger. &lt;/p&gt;
+&lt;p&gt;A block in the blockchain encapsulates a set of transactions, serving as a timestamp to the happenings of those transactions. Blocks in the chain come together to form a database containing information about every valid transaction that has occurred.&lt;/p&gt;
+&lt;p&gt;Each node is incentivised with money to want to be the one to append the next block to the blockchain. To decide which node gets that privilege, the blockchain employs a vote-by-compute-power mechanism.&lt;/p&gt;
+&lt;h4&gt;Consensus Protocol Steps&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The node creates a block, loading it up with some number of pending transactions.&lt;/li&gt;
+&lt;li&gt;All nodes compete to be the first to finish a CPU intensive “proof-of-work” problem. This problem is dependent on the node’s proposed block, and the latest block on the blockchain, as inputs. Each block influences the solution of the next block’s proof of work problem, which means that subsequent blocks in the chain help reinforce all previous blocks. &lt;/li&gt;
+&lt;li&gt;When the node completes the proof-of-work problem, they broadcast the block with the answer to all nodes in the network.&lt;/li&gt;
+&lt;li&gt;If a node receives a solution broadcast, it will attempt to verify the transactions on the block with the answer. If valid, the node will acknowledge the answer by appending the solution block to its local blockchain copy, and restart at Step 1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Incentives&lt;/h2&gt;
+&lt;p&gt;Solving proof-of-work problems requires a staggering amount of CPU power and electricity. There are two main incentives as to why nodes compete to solve these problems. &lt;/p&gt;
+&lt;p&gt;First, each block contains a special transaction as its first transaction, one which creates a set amount of coins for the block’s creator. Earning coins by getting your block chosen is what people refer to when they talk about “mining” Bitcoins. This mechanism also serves as a means to introduce new coins into circulation.&lt;/p&gt;
+&lt;p&gt;Second, each transaction can optionally provide a transaction fee, an incentive for miners to include the transaction on their block. The amount of coins mined per block is set to slowly decrease as time goes on, designed to eventually reach zero when a set amount of coins are in circulation. Transactions fees are expected to become the main incentive driver when that eventuality occurs.&lt;/p&gt;
+&lt;h2&gt;Proof-of-work&lt;/h2&gt;
+&lt;p&gt;By design, nodes consider the longest blockchain as correct as length is a direct representation of the amount of CPU power that was invested. The result of a system backed by proof-of-work is that the blockchain is safe from attackers so long as honest nodes hold a simple majority of compute power. &lt;/p&gt;
+&lt;p&gt;Consider the case where an attacker tries to defraud a node by double spending a coin. When the attacker removes his transaction from its block, the block’s value changes, which requires a redoing of the block’s proof of work problem, as well as the proof-of-work problems in all subsequent blocks. &lt;/p&gt;
+&lt;p&gt;All the while, honest nodes are investing all their CPU power to extend their version of the blockchain. These factors make any attempts to overtake the “good” blockchain a truly sisyphean task.&lt;/p&gt;
+&lt;h2&gt;In Conclusion&lt;/h2&gt;
+&lt;p&gt;The traditional banking model operates on a trust based system, where a trusted third party (e.g. the bank) is tasked with moderating transactions. A trust based model will always have problems in terms of security and privacy, but with the advent of the internet and online banking, these already pronounced issues have only gotten worse.&lt;/p&gt;
+&lt;p&gt;Cryptocurrency looks to reinforce transactions with something tangible: proof-of-work. The validity of each transaction is secured through mathematical means, which means that personal information is not required as a safeguard against fraud. Transactions will be held between anonymous parties.&lt;/p&gt;
+&lt;p&gt;New problems require new solutions, not old ones. In this digital age, Satoshi Nakamoto pioneered a path towards a safer, reliable, and more secure future.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;To learn more, read the whitepaper &lt;a href=&quot;https://bitcoin.org/bitcoin.pdf&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Paxos Made Simple(r)]]></title><description><![CDATA[Paxos is the distributed consensus algorithm that started it all. First published by Leslie Lamport in his seminal paper, The Part-Time…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/001-paxos/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/001-paxos/</guid><pubDate>Wed, 03 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Paxos is the distributed consensus algorithm that started it all. First published by Leslie Lamport in his seminal paper, &lt;em&gt;The Part-Time Parliament&lt;/em&gt;, and later dissected for the masses in his publication &lt;em&gt;Paxos Made Simple&lt;/em&gt;, the algorithm attempts to solve for consensus while striking a balance between maximizing availability (the protocol will not block on node failures, and will continue to run as long as a quorum can be reached) and guaranteeing strong consistency. &lt;/p&gt;
+&lt;h2&gt;The Algorithm&lt;/h2&gt;
+&lt;p&gt;Paxos in its basic form tackles the problem of consensus on a single value. The algorithm executes over two phases, with participating nodes assuming one or both of these two roles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Proposers&lt;/strong&gt;: active agents that receive requests from clients and propose values.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Acceptors&lt;/strong&gt;: passive agents that receive requests and vote for values.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For simplicity’s sake, assume every node on our network executes both roles. &lt;/p&gt;
+&lt;h3&gt;Phase 1: Prepare&lt;/h3&gt;
+&lt;p&gt;Proposers send PREPARE requests to Acceptors with a &lt;strong&gt;proposal number&lt;/strong&gt; attached. This number is extremely important, as it is used to establish a hierachy and an absolute ordering amongst the proposals. Therefore, the number must be unique and greater than that of any past proposals.&lt;/p&gt;
+&lt;p&gt;If the proposal number is not the highest that the Acceptor has seen, it will tell the Proposer that the proposal is no longer valid. Otherwise the Acceptor will return a flag signifying the proposal is still valid, as well as communicate the latest accepted values (if any). &lt;/p&gt;
+&lt;p&gt;The Proposer will proceed to the second phase if a majority of Acceptors respond that the proposal is valid. If the Proposer is returned any accepted proposals, it will attempt to propogate the value of the latest accepted proposal.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Proposer&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;broadcast_prepare_requests&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    self&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    proposal&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Proposal
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; List&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;PrepareResponse&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+        client&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;send_prepare_rpcs&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;proposal&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; acceptor &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;acceptors
+    &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Acceptor&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;process_prepare_request&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    self&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    proposal&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Proposal
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; PrepareResponse&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; proposal&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;proposal_num &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;highest_proposal_num_seen&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;highest_proposal_num_seen &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; proposal_num
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; PrepareResponse&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+            valid&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            accepted_proposal&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;highest_accepted_proposal
+        &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; PrepareResponse&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;valid&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; accepted_proposal&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Phase 2: Accept&lt;/h3&gt;
+&lt;p&gt;Proposers send ACCEPT requests to Acceptors containing a proposal number and value. Acceptors will respond favorably if the attached proposal number is the highest it has seen thus far. Else, it will reject the proposal.&lt;/p&gt;
+&lt;p&gt;If the Proposer has received successes from a majority of Acceptors, it considers consensus to be reached on that value. Otherwise, it will enter back into Phase 1 with a new proposal number.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Proposer&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;broadcast_accept_requests&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;    
+    self&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    proposal&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Proposal
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; List&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;AcceptResponse&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+        self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;client&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;send_accept_rpcs&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;proposal&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; acceptor &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;acceptors
+    &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Acceptor&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;process_accept_request&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    self&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    proposal&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Proposal
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; AcceptResponse&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; proposal&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;proposal_num &lt;span class=&quot;token operator&quot;&gt;&gt;=&lt;/span&gt; self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;highest_proposal_num_seen&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;highest_accepted_proposal &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; proposal
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; AcceptResponse&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;accepted&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; AcceptResponse&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;accepted&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Livelock &amp;#x26; Other Concerns&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The consensus problem involves an asynchronous system of processes, some of which may be
+unreliable. The problem is for the reliable processes to agree on a binary value. (…) it is shown
+that every protocol for this problem has the possibility of nontermination, even with only one faulty
+process.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In accordance with &lt;a href=&quot;https://dl.acm.org/doi/pdf/10.1145/3149.214121&quot;&gt;FLP’s impossibility result&lt;/a&gt;, Paxos will only guarantee &lt;strong&gt;validity&lt;/strong&gt; (nodes will only learn of proposed values) and &lt;strong&gt;consistency&lt;/strong&gt; (nodes will only agree on a single value), eschewing &lt;strong&gt;liveness&lt;/strong&gt; (the guarantee to terminate).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Livelock&lt;/strong&gt; occurs when proposers constantly one-up each other with proposals of a higher round number, before a quorum is reached for the previous proposal.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0a531ab39c293345160411433a7363bd/dd507/livelock.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 30.405405405405407%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAABaUlEQVQY0z2RW2/TQBCF8/9/BA8g8cALSAhooaKhaUpQ4salrUub4jq+pnbjW9L6tuuPtS0x0tHOaI/OzJkZpWmKGyR8X/i44QvQ4mwyvs7W6Kucqe6zvE0QQiKkoK4bxZGYbsLB2RrD2qs/QVVVPUZZluEowcOZpwRLunA3ez6rWlvt+KF5zI2Y/yGGx3QzPinOlfWMlJKmaVSzmlGaJth+zNGvgBsnwnuxMByfd6+/MZ2ZnOgb5mrC2/sLLrUJTq4aP6/5bbq8fXXA4sJTk0vKshwm7CxH24zVesdNYHMSjjFCi58fx/y5fuDezXl43HM4/8CX8RsW23Om0QQjsDh9f4T510e0bS/YYRTHsUqK3oafeRx7Yx7LTV/LVvlTEKLi1Dljni/Rn3Qm/oS43g4cOVgtimIQzPOcQiWtaAl3IVqkEZVPiFotWhG7I1R1hR7oXKdX3KV3LKMlSZXQVE2/u07Itu3e8j9kCrytYfbU2gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;livelock&quot;
+        title=&quot;livelock&quot;
+        src=&quot;/static/0a531ab39c293345160411433a7363bd/fcda8/livelock.png&quot;
+        srcset=&quot;/static/0a531ab39c293345160411433a7363bd/12f09/livelock.png 148w,
+/static/0a531ab39c293345160411433a7363bd/e4a3f/livelock.png 295w,
+/static/0a531ab39c293345160411433a7363bd/fcda8/livelock.png 590w,
+/static/0a531ab39c293345160411433a7363bd/efc66/livelock.png 885w,
+/static/0a531ab39c293345160411433a7363bd/c83ae/livelock.png 1180w,
+/static/0a531ab39c293345160411433a7363bd/dd507/livelock.png 1528w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In the above diagram you can see that P 3.1 does not manage to achieve a quorum before P 3.5 reaches a majority of nodes. A higher proposal number will trump a lower one, so P 3.1 cannot acheive quorum in this state. The same thing happens to P 3.5 with P 4.1, and then again with P4.1 and P 5.5. This can go on indefinitely.&lt;/p&gt;
+&lt;p&gt;Luckily, there are many solutions to livelock out there (e.g. adding randomized delay between phases, or in the case of Multi-Paxos, leader election).&lt;/p&gt;
+&lt;p&gt;Another concern with Paxos is that only the Proposer is aware when consensus is reached. Other nodes will need to learn of that knowledge one way or another, which will involve even more RPCs and general overhead.&lt;/p&gt;
+&lt;h2&gt;Multi-Paxos&lt;/h2&gt;
+&lt;p&gt;A prevalent use case of Paxos is to replicate a state machine. This is done by replicating a sequential log of operations, which will be applied by each node. Multi-Paxos is a refinement of Basic Paxos that optimizes for this use case.&lt;/p&gt;
+&lt;h3&gt;Leader Election&lt;/h3&gt;
+&lt;p&gt;To make repeating Paxos more efficient, a single Proposer is to be made “leader”, which will be responsible for all future proposals. When the leader confirms it’s up to date with a majority of Acceptors (no more accepted values returned), it no longer needs to send PREPARE requests, and can send just ACCEPT requests for proposals. This effectively halves the amount of RPCs that is needed for a round of Paxos, and our system will retain this benefit until the leader fails. &lt;/p&gt;
+&lt;h3&gt;Leader Failure&lt;/h3&gt;
+&lt;p&gt;In the case of leader failure, Multi-Paxos gracefully degrades into Basic Paxos. Leader reelection can be executed in a variety of ways: an easy solution would be for the Proposer of the next accepted value to assume the role of leader.&lt;/p&gt;
+&lt;h2&gt;In Summary&lt;/h2&gt;
+&lt;p&gt;Paxos allows a network of nodes to reach consensus on a single value, while guaranteeing that the value is valid and consistent. Multi-paxos allows consensus to be reached on a sequence of values, while attempting to minimize the number of RPCs needed to do so. Paxos is an elegant solution to the difficult problem of providing strong consistency and high availability within a distributed system. &lt;/p&gt;</content:encoded></item></channel></rss>
