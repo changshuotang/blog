@@ -6,7 +6,7 @@
  */
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
@@ -61,7 +61,12 @@ const Bio = () => {
           Looking backwards.
         </div>
         <div>
-          A <a href="https://changshuotang.github.io/">personal</a> blog.
+          A <Link
+            style={{
+              color: `156C64`,
+            }}
+            to={`/me`}
+          >personal</Link> blog.
         </div>
       </div>
     </div>

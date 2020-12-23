@@ -5,8 +5,6 @@ description: "Satoshi Nakamoto dreams of a universal currency."
 tags: ['Technical']
 ---
 
-## Introduction
-
 Ethereum. Bitcoin. Ripple.
 
 Once heavily affiliated with hacker subculture and the dark web, cryptocurrency has become increasingly mainstream in the past decade. Nowadays applications such as Robinhood or Cash App allow just about anybody to buy into the crypto hype. 

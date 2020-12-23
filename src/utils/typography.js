@@ -8,7 +8,7 @@ Wordpress2016.overrideThemeStyles = () => {
     },
     "a": {
       color: '#4267b2'
-    }
+    },
   }
 }
 
