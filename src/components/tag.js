@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 const _ = require("lodash")
 
-const TagMetadata = {
+export const TagMetadata = {
     'Technical': {
         'color': '#118ab2',
     },
@@ -17,11 +17,11 @@ const Tag = ({ tagName }) => {
             <small style={{
                 background: TagMetadata[tagName].color,
                 color: 'white',
-                paddingLeft: 4,
-                paddingRight: 4,
-                paddingTop: 2,
-                paddingBottom: 2,
-                borderRadius: 4,
+                paddingLeft: 6,
+                paddingRight: 6,
+                paddingTop: 3,
+                paddingBottom: 3,
+                borderRadius: 5,
                 marginLeft: 3,
                 marginRight: 3,
             }}>{tagName}</small>
