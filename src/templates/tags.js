@@ -3,16 +3,17 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import { TagMetadata } from "../components/tag"
+import { rhythm, scale } from "../utils/typography"
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
   const siteTitle = data.site.siteMetadata.title
   const { edges, totalCount } = data.allMarkdownRemark
-  const tagHeader = `${totalCount} post${totalCount === 1 ? "" : "s"} tagged with "${tag}"`
+
   return (
     <Layout location={"ok"} title={siteTitle}>
       <div>
-        <h3>
+        <h3 style={{lineHeight: rhythm(1.5)}}>
           {`${totalCount} post${totalCount === 1 ? "" : "s"} tagged with `}
           <div style={{
             background: TagMetadata[tag].color,
