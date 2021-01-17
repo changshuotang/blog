@@ -13,6 +13,7 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-use-dark-mode`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
