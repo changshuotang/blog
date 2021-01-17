@@ -18,6 +18,8 @@ const DarkModeToggle = () => {
       checked={darkMode.value}
       onChange={darkMode.toggle}
       size={24}
+      moonColor={'#487eb0'}
+      sunColor={'#e58e26'}
     />
   );
 };

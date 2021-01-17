@@ -12,6 +12,11 @@ Wordpress2016.overrideThemeStyles = () => {
     "body.dark-mode": {
       backgroundColor: '#12161f',
       color: '#fff7f2',
+    },
+    "blockquote": {
+      color: 'inherit',
+      opacity: 0.5,
+      borderLeft: '0.32813rem solid #487eb0'
     }
   }
 }
