@@ -5,7 +5,13 @@ import { DarkModeSwitch } from 'react-toggle-dark-mode';
  
 const DarkModeToggle = () => {
   const darkMode = useDarkMode(false);
- 
+
+  if (typeof window === 'undefined') {
+    // Never server-side render this, since we can't determine
+    // the correct initial state until we get to the client.
+    return null;
+  }
+
   return (
     <DarkModeSwitch
       style={{ marginBottom: '2rem' }}
