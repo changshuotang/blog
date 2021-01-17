@@ -10,8 +10,14 @@ Wordpress2016.overrideThemeStyles = () => {
       color: '#4267b2'
     },
     "body.dark-mode": {
+      transition: 'color 0.3s ease, background 0.3s ease',
       backgroundColor: '#12161f',
-      color: '#fff7f2',
+      color: '#e5ded9',
+    },
+    "body.light-mode": {
+      transition: 'color 0.3s ease, background 0.3s ease',
+      backgroundColor: '#fffcfc',
+      color: '#191926',
     },
     "blockquote": {
       color: 'inherit',
