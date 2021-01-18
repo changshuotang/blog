@@ -8,6 +8,9 @@ export const TagMetadata = {
     },
     'Music': {
         'color': '#52b788',
+    },
+    'Movies': {
+        'color': '#52b788',
     }
 };
 

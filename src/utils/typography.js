@@ -23,7 +23,7 @@ Wordpress2016.overrideThemeStyles = () => {
       color: 'inherit',
       opacity: 0.5,
       borderLeft: '0.32813rem solid #487eb0'
-    }
+    },
   }
 }
 
