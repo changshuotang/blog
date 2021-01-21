@@ -31,11 +31,11 @@ In the movie, those eaten alive are personified as the lost souls of the spirit 
 
 Modern society does no part in hindering us from operating at our default settings; in fact, it encourages it. And though the worship of money and power, hallmarks of Capitalism each, has yielded great results in affording our country prosperity and liberty, true freedom lies in the mundane choice to be present in the moment, to be aware and choose how we process our day-to-day. 
 
-22's outlook, during her quick stint possessing Joe's body, exemplifies this awareness. Not having been bogged down through a myriad of past life experiences through virtue of being an unborn soul, 22 is able to live in such a way so that she is able to appreciate every detail of what is happening to her. Each moment is a choice for her, a decision of what to worship.
+22's outlook, during her quick stint possessing Joe's body, exemplifies this awareness. Not having been bogged down with a myriad of past life experiences through virtue of being an unborn soul, 22 is able to live in such a way so that she is able to appreciate every detail of what is happening to her. Each moment is a choice for her, a decision of what to worship.
 
 >That is real freedom. That is being educated, and understanding how to think. The alternative is unconsciousness, the default setting, the rat race, the constant gnawing sense of having had, and lost, some infinite thing. – David Foster Wallace, in "This Is Water"
 
-## The Is The Ocean
+## This Is The Ocean
 
 And that is the "capital-T Truth", as Wallace puts it. 
 
